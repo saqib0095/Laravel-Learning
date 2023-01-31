@@ -4,8 +4,11 @@
 <link rel="stylesheet" href="/app.css">
 
 <body>
+    <h1>
+        <?= $post->title; ?>
+    </h1>
     <article>
-        <?= $post; ?>
+        <?= $post->body; ?>
     </article>
     <a href="/">Go Baack</a>
 </body>
